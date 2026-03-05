@@ -26,30 +26,33 @@ This is useful when working with Excel files where each sheet contains similar s
 ## Example Use Case
 
 You have an Excel file with multiple sheets:
-  Sheet1
-  Sheet2
-  Sheet3
-  Sheet4
+- Sheet1
+- Sheet2
+- Sheet3
+- Sheet4
 
 Each sheet contains similar columns like:
+
 Item Code | Description | Quantity | Price
 
 The script will combine all rows from these sheets into one dataset containing only the columns common across all sheets.
+
 ---
 
 ## Output
 
 The output file:
+
 - consolidated_common_headers.xlsx
 - Contains all rows from all sheets combined into one table.
 
 ---
 ## Possible Enhancements
-  - Adding Sheet Name as a Source Column
-  - Handling different header names automatically
-  - Creating data validation checks
-  - Handling missing columns dynamically
-  - Building a GUI for Excel consolidation
+- Adding Sheet Name as a Source Column
+- Handling different header names automatically
+- Creating data validation checks
+- Handling missing columns dynamically
+- Building a GUI for Excel consolidation
 
 ---
 Author
